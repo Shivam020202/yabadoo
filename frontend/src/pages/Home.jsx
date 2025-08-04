@@ -12,6 +12,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import LoginModal from "../components/LoginModal";
 import KidsMemoryGame from "../components/Game";
+import YabadooChatbot from "../components/Chatbot";
 
 const Home = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -49,6 +50,7 @@ const Home = () => {
       <KidsMemoryGame />
       <Contact />
       <Footer />
+      <YabadooChatbot />
 
       <LoginModal
         isOpen={isLoginModalOpen}
